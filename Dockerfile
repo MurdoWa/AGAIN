@@ -1,5 +1,4 @@
 FROM openjdk:latest
 COPY ./target/classes/com /tmp/com
 WORKDIR /tmp
-ENTRYPOINT ["java", "org.example.Main"]
-
+ENTRYPOINT ["java", "com.napier.sem.app"]
